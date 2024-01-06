@@ -1,8 +1,16 @@
-# React + Vite
+# Color Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Values.js
 
-Currently, two official plugins are available:
+用 [Values.js Library](https://github.com/noeldelgado/values.js/blob/master/README.md) 生成不同颜色
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Install
+    ```sh
+    npm i values.js
+    ```
+2. Usage
+    ```jsx
+    import Values from 'values.js';
+    new Values('#f15025').all(10);
+    ```
+
