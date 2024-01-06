@@ -14,3 +14,27 @@
     new Values('#f15025').all(10);
     ```
 
+## React-Toastify
+
+1. Install
+    ```sh
+    npm i react-toastify
+    ```
+2. Usage
+    ```jsx
+    // main.jsx
+    import 'react-toastify/dist/ReactToastify.css';
+
+    // App.jsx
+    import { ToastContainer, toast } from 'react-toastify';
+
+    toast.success('awesome');
+    toast.error('error message');
+
+    return (
+    <main>
+        ...............
+        <ToastContainer position='top-center' />
+    </main>
+    );
+    ```
