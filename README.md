@@ -33,10 +33,12 @@
 
     return (
     <main>
-        ...............
+        // 其他代码
         <ToastContainer position='top-center' />
     </main>
     );
     ```
 
 ## Clipboard API
+
+用 `navigator.clipboard` 访问系统剪贴板的 `Clipboard` 对象。它提供了读取和写入剪贴板内容的功能，可以用于实现网页应用程序中的剪切、复制和粘贴功能。然而，使用异步剪贴板读取和写入方法需要用户授予网站或应用程序访问剪贴板的权限。
