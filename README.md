@@ -2,7 +2,7 @@
 
 通过颜色选择器选择颜色或直接输入颜色，点击按钮生成20中不同深浅的颜色。点击颜色可以直接复制颜色。
 - 不同颜色通过 Values.js 生成
-- 成功复制颜色后提示用户的弹窗使用 react-toastify
+- 用 react-toastify 提供状态弹窗反馈
 - 复制到剪贴板用自带的 Clipboard API
 
 ![](public/screenshot.png)
@@ -22,6 +22,8 @@
     ```
 
 ## React-Toastify
+
+用 [react-toastify](https://github.com/fkhadra/react-toastify) 创建弹窗反馈信息
 
 1. Install
     ```sh
