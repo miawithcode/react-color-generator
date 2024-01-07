@@ -1,9 +1,9 @@
-import { toast } from "react-toastify";
+import { toast } from 'react-toastify';
 
 const SingleColor = ({ color, index }) => {
   const { hex, weight } = color;
   const saveToClipboard = async () => {
-    if(navigator.clipboard) {
+    if (navigator.clipboard) {
       try {
         await navigator.clipboard.writeText(`#${hex}`);
         toast.success('Color copied to clipboard');
@@ -11,9 +11,9 @@ const SingleColor = ({ color, index }) => {
         toast.error('Failed copy color to clipboard');
       }
     } else {
-      toast.error('Clipboard access not available')
+      toast.error('Clipboard access not available');
     }
-  }
+  };
 
   return (
     <article
@@ -26,4 +26,4 @@ const SingleColor = ({ color, index }) => {
     </article>
   );
 };
-export default SingleColor
+export default SingleColor;
