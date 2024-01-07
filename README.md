@@ -1,5 +1,7 @@
 # Color Generator
 
+![](public/screenshot.png)
+
 ## Values.js
 
 用 [Values.js Library](https://github.com/noeldelgado/values.js/blob/master/README.md) 生成不同颜色
